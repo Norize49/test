@@ -14,7 +14,7 @@ if oper == 1:
 elif oper == 2:
     print("Мінімальне значення:", min(number1, number2, number3))
 elif oper == 3:
-    print("Середнє арифметичне:", min(number1, number2, number3))
+    print("Середнє арифметичне:", (number1 + number2 + number3) / 3)
 else:
     print("Невірний номер операції")
 
